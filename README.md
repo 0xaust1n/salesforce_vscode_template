@@ -1,18 +1,35 @@
-# Salesforce DX Project: Next Steps
+## INTRO
+> This repo is template for salesforce project  
+> Feel free to clone it as your template  
+> Mostly is set the configuration for Prettier  
+> But you still got few steps to do
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
 
-## How Do You Plan to Deploy Your Changes?
+## Before Start
+>There're few things you need to install before using the project.
+- Node.js (I guess ? Maybe not)
+- NPM
+- Java Runtime
+- SDFX (Salesforce CLI)
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+**Extension for vscode**
+- Salesforce Extension pack
+- Prettier - Code formatter
+## Configs
 
-## Configure Your Salesforce DX Project
+**Install dependencies**
+> PS: use terimal and cd to your project
+```
+# install dependencies
+npm install 
+```
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+**Add Configuration to your vscode project**
+>add code below to settings.json
+```
+ "files.associations": {
+    "*.page": "html"
+  }
+```
 
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+**Try use format document in Apex Classes or Visualforce Pages**
