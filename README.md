@@ -11,9 +11,9 @@
 
 ## Before start
 >There're few things you need to install before using the project.
-- Node.js (I guess ? Maybe not)
+- Node.js 12 above
 - NPM
-- Java Runtime
+- Java Runtime 
 - SDFX (Salesforce CLI)
 
 **Extension for vscode**
@@ -25,15 +25,22 @@
 
 
 ## How to install
+
+- Create project by Visual Code Extension
+- Open terminal & cd to your project  
+
+
+
 **Option 1**
 
-> You can download this project and replace the default template created by salesforce plugins.
+```
+#Enter this to terminal
+npm install --save-dev prettier prettier-plugin-apex
+```
 
 **Option 2**
 > Replace the file mentioned below.
 
-- .prettierignore
-- .prettierrc
 - package.json
 - package-lock.json
 
@@ -41,20 +48,21 @@
 
 ## Configs
 
-**Install dependencies**
-> PS: use terminal and cd to your project  
+**Install all dependencies**
 > Please make sure you already finished the "How to install" step before start
 ```
-# install dependencies
+#Enter this to terminal
 npm install 
 ```
 
-**Add Configuration to your vscode project**
->add code below to settings.json
-```
- "files.associations": {
-    "*.page": "html"
-  }
-```
-
 **Enjoy**
+
+
+<br/>
+
+
+## Known issues 
+
+ **Issues1** : Can **not** format visualforce pages when set prettier as default formater  
+
+**Solution** : Remove "editor.defaultFormatter" from setting.json
