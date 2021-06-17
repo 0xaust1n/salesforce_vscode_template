@@ -5,7 +5,11 @@
 > But you still got few steps to do
 
 
-## Before Start
+
+<br/>
+
+
+## Before start
 >There're few things you need to install before using the project.
 - Node.js (I guess ? Maybe not)
 - NPM
@@ -15,10 +19,31 @@
 **Extension for vscode**
 - Salesforce Extension pack
 - Prettier - Code formatter
+
+
+<br/>
+
+
+## How to install
+**Option 1**
+
+> You can download this project and replace the default template created by salesforce plugins.
+
+**Option 2**
+> Replace the file mentioned below.
+
+- .prettierignore
+- .prettierrc
+- package.json
+- package-lock.json
+
+<br/>
+
 ## Configs
 
 **Install dependencies**
-> PS: use terimal and cd to your project
+> PS: use terimal and cd to your project  
+> Please make sure you already finished the "How to install" step before start
 ```
 # install dependencies
 npm install 
@@ -32,4 +57,4 @@ npm install
   }
 ```
 
-**Try use format document in Apex Classes or Visualforce Pages**
+**Try use format document on Apex Classes or Visualforce Pages**
