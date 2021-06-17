@@ -63,6 +63,6 @@ npm install
 
 ## Known issues 
 
- **Issues1** : Can **not** format visualforce pages when set prettier as default formater  
+ **Issues1** : Can **not** format visualforce pages when set prettier as default formatter  
 
 **Solution** : Remove "editor.defaultFormatter" from setting.json
