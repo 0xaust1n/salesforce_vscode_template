@@ -42,7 +42,7 @@
 ## Configs
 
 **Install dependencies**
-> PS: use terimal and cd to your project  
+> PS: use terminal and cd to your project  
 > Please make sure you already finished the "How to install" step before start
 ```
 # install dependencies
@@ -57,4 +57,4 @@ npm install
   }
 ```
 
-**Try use format document on Apex Classes or Visualforce Pages**
+**Enjoy**
