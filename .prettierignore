@@ -6,8 +6,5 @@
 .localdevserver
 .sfdx
 .vscode
-.cls-meta.xml
-.page-meta.xml
-.xml
+
 coverage/
-TriggerHandler.cls
